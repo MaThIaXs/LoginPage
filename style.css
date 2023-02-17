@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #190F26;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+    background-color: #FFF;
+    border-radius: 5%;
+    padding: 50px;
+}
+
+.header {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 4rem;
+}
+
+.header-title {
+    font-size: 30pt;
+    font-weight: 600;
+    color: #190F26;
+}
+
+.header-subtitle {
+    font-size: 10pt;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email {
+    margin-bottom: 1rem;
+}
+
+.email, .password {
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #190F26;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content input {
+    background-color: transparent;
+    width: 20rem;
+    padding: 10px;
+    color: #190F26;
+}
+
+.content i {
+    color: #190F26;
+    font-size: 17px;
+}
+
+.content button {
+    cursor: pointer;
+    background-color: transparent;
+    color: #190F26;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: #190F26;
+    font-size: 13pt;
+    transition: 0.1s all ease-in;
+}
+
+.content button:hover {
+    background-color: #190F26;
+    color: #FFF;
+}
+
+.content button:active {
+    border: none;
+    background-color: #3B0273;
+}
+
+.forgot_password {
+    margin-bottom: 2rem;
+    margin-top: 2px;
+    font-size: 10pt;
+}
+
+a:link {
+    color: #3B0273;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
